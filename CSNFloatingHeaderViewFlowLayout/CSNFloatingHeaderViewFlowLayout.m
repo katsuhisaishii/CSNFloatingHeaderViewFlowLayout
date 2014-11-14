@@ -115,7 +115,7 @@
             
             origin.y = MIN(
                            MAX(
-                               contentOffset.y + collectionView.contentInset.top,
+                               contentOffset.y + collectionView.contentInset.top - self.headerOffset,
                                (CGRectGetMinY(firstObjectAttrs.frame) - topHeaderHeight - sectionInset.top)
                                ),
                            (CGRectGetMaxY(lastObjectAttrs.frame) - bottomHeaderHeight + sectionInset.bottom)

@@ -14,6 +14,8 @@
  */
 @property (nonatomic, assign) NSInteger headerViewZIndex;
 
+@property (nonatomic) NSInteger headerOffset;
+
 /** take over property values
  @return new instance
  */
